@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #5a3b2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1 {
+  color: #f5e6cf;
+  font-size: 3rem;
+  opacity: 0;
+  animation: surgir 2s ease forwards;
+}
+
+@keyframes surgir {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
