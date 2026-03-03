@@ -152,20 +152,30 @@ footer {
   text-align: justify;
 }
 
-/* RESPONSIVO */
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-  }
+    
+    body {
+        overflow-x: hidden;
+    }
 
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
 
-  .hero-foto img {
-    max-width: 200px;
-  }
+    /* Exemplo de menu */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Exemplo de cards */
+    .cards {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
