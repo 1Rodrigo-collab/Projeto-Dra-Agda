@@ -1,93 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Clínica Beauty Estética</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica especializada em estética facial, botox, preenchimento e cuidados com a pele.">
+  <title>Clínica Beauty Estética</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- BOTÃO WHATSAPP FLUTUANTE -->
-    <a href="https://wa.me/5511935019413" class="whatsapp-fixo" target="_blank">
-        <img src="img/whatsap-removebg-preview.png" alt="WhatsApp">
-    </a>
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Beauty Estética</h1>
+      <nav class="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#agendamento" class="btn-nav">Agendar</a>
+      </nav>
+    </div>
+  </header>
 
-    <a href="https://instagram.com/dra.agdapereira" class="instagram-fixo" target="_blank">
-        <img src="img/instagran-removebg-preview.png" alt="Instagram">
-    </a>
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero-content">
 
-    <header>
-        <h1>Clínica Beauty Estética</h1>
-        <nav>
-            <a href="#servicos">Serviços</a>
-            <a href="#agendamento">Agendamento</a>
-            <a href="#contato">Contato</a>
-        </nav>
-    </header>
+      <div class="hero-text">
+        <span class="badge">Especialista em Estética Facial</span>
+        <h2>Realce sua beleza com naturalidade e segurança</h2>
+        <p>Procedimentos modernos com foco em resultados elegantes e personalizados.</p>
 
-    <section class="hero">
-        <div class="hero-content">
-
-            <div class="hero-text">
-                <h2>Realce sua beleza natural</h2>
-                <p>Botox, preenchimentos e cuidados faciais</p>
-            </div>
-
-            <div class="hero-foto">
-                <img src="img/WhatsApp Image 2026-01-08 at 19.24.49.jpeg" alt="Foto da Doutora">
-            </div>
-
-            <div class="sobremim">
-                <h3>Sobre mim</h3>
-                <p>Sou a Dra. Agda Pereira, especialista em estética facial com anos de experiência em
-                    procedimentos como botox</p>
-            </div>
-
+        <div class="hero-buttons">
+          <a href="#agendamento" class="btn-primary">Agendar Consulta</a>
+          <a href="#servicos" class="btn-secondary">Ver Procedimentos</a>
         </div>
-    </section>
+      </div>
 
-    <section id="servicos" class="servicos">
+      <div class="hero-image">
+        <img src="/img/WhatsApp Image 2026-01-08 at 19.24.49.jpeg" alt="Dra. Agda Pereira">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SERVIÇOS ================= -->
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <h2 class="section-title">Nossos Procedimentos</h2>
+
+      <div class="servicos-grid">
 
         <div class="card">
-            <img src="img/mulher-recebendo-uma-injecao-de-beleza-facial-no-centro-de-bem-estar.jpg" alt="Botox">
-            <h3>Botox</h3>
-        </div>
-
-        <div class="card">
-            <img src="img/WhatsApp Image 2026-01-08 at 19.49.05.jpeg" alt="Preenchimento Facial">
-            <h3>Preenchimento labial</h3>
+          <a href="procedimento.html?id=botox">
+            <img src="/img/mulher-recebendo-uma-injecao-de-beleza-facial-no-centro-de-bem-estar.jpg" alt="Botox">
+            <h3>Botox Facial</h3>
+          </a>
         </div>
 
         <div class="card">
-            <img src="img/mulher-de-close-up-usando-creme-facial.jpg" alt="Limpeza de Pele">
+          <a href="procedimento.html?id=preenchimento-labial">
+            <img src="/img/WhatsApp Image 2026-01-08 at 19.49.05.jpeg" alt="Preenchimento Labial">
+            <h3>Preenchimento Labial</h3>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="procedimento.html?id=limpeza">
+            <img src="/img/mulher-de-close-up-usando-creme-facial.jpg" alt="Limpeza de Pele">
             <h3>Limpeza de Pele</h3>
+          </a>
         </div>
 
         <div class="card">
-            <img src="img/retrato-de-mulher-madura-antes-e-depois-retocado.jpg" alt="Skinbooster">
+          <a href="procedimento.html?id=skinbooster">
+            <img src="/img/retrato-de-mulher-madura-antes-e-depois-retocado.jpg" alt="Skinbooster">
             <h3>Skinbooster</h3>
+          </a>
         </div>
 
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="agendamento" class="agendamento">
-        <h2>Agende seu horário</h2>
+  <!-- ================= SOBRE ================= -->
+  <section id="sobre" class="sobre">
+    <div class="container sobre-content">
+      <div class="sobre-text">
+        <h2>Sobre a Dra. Agda Pereira</h2>
+        <p>
+          Especialista em estética facial com ampla experiência em procedimentos
+          como botox, preenchimentos e rejuvenescimento. Atendimento personalizado,
+          focado em segurança, naturalidade e excelência nos resultados.
+        </p>
+      </div>
+    </div>
+  </section>
 
-        <form>
-            <input type="text" placeholder="Nome" required>
-            <input type="email" placeholder="Email" required>
-            <input type="date" required>
-            <textarea placeholder="Procedimento desejado"></textarea>
-            <button type="submit">Agendar</button>
-        </form>
-    </section>
+  <!-- ================= DIFERENCIAIS ================= -->
+  <section class="diferenciais">
+    <div class="container">
+      <h2 class="section-title">Por que escolher a Beauty Estética?</h2>
 
-    <footer id="contato">
-        <p>© 2026 - Clínica Beauty Estética</p>
-    </footer>
+      <div class="diferenciais-grid">
+        <div class="diferencial-item">
+          <h3>Atendimento Personalizado</h3>
+          <p>Cada paciente recebe avaliação individual e plano exclusivo.</p>
+        </div>
 
+        <div class="diferencial-item">
+          <h3>Produtos de Alta Qualidade</h3>
+          <p>Utilizamos apenas marcas reconhecidas no mercado estético.</p>
+        </div>
+
+        <div class="diferencial-item">
+          <h3>Resultados Naturais</h3>
+          <p>Realce da beleza respeitando sua identidade e harmonia facial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DEPOIMENTOS ================= -->
+  <section id="depoimentos" class="depoimentos">
+    <div class="container">
+      <h2 class="section-title">O que nossas pacientes dizem</h2>
+
+      <div class="depoimentos-grid">
+        <div class="depoimento">
+          <p>"Atendimento impecável e resultados incríveis!"</p>
+          <span>– Mariana S.</span>
+        </div>
+
+        <div class="depoimento">
+          <p>"Me senti segura e acolhida desde a primeira consulta."</p>
+          <span>– Juliana R.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AGENDAMENTO ================= -->
+  <section id="agendamento" class="agendamento">
+    <div class="container">
+      <h2>Agende seu horário</h2>
+
+      <form>
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" required>
+        <textarea placeholder="Procedimento desejado"></textarea>
+        <button type="submit">Agendar Consulta</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <div>
+        <h3>Beauty Estética</h3>
+        <p>São Paulo - SP</p>
+        <p>Atendimento com hora marcada</p>
+      </div>
+
+      <div>
+        <h4>Contato</h4>
+        <p>WhatsApp: (11) 93501-9413</p>
+        <p>Instagram: @dra.agdapereira</p>
+      </div>
+
+    </div>
+
+    <p class="copyright">© 2026 Todos os direitos reservados</p>
+  </footer>
+  <script src="JS/main.js"></script>
 </body>
-
 </html>
